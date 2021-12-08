@@ -1,10 +1,13 @@
 
-def hello():
-    print("hello world!")
-    def get_hello_message():
-        return hello()
-    def say_hello():
-        print(get_hello_message())
 
 
-hello()
+def get_hello_message():
+    return 'Hello, World!'
+
+
+def say_hello():
+    message = get_hello_message()
+    print(message)
+
+
+say_hello()
