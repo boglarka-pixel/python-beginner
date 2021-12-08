@@ -2,7 +2,7 @@
 name = input()
 
 
-
+print("hello2")
 
 def get_hello_msg(name):
     print('whats your name?')
